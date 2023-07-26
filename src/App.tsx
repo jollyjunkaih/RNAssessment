@@ -16,6 +16,8 @@ function App(): JSX.Element {
           <Stack.Screen
             options={{
               headerTitle: 'Contacts',
+              headerShadowVisible: true,
+              headerStyle: {backgroundColor: '#E7E7E7'},
               headerTitleAlign: 'center',
               headerRight: () => (
                 <Icon name="add" size={30} color={'#ff8c00'} />
